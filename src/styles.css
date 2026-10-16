@@ -1,0 +1,58 @@
+:root {
+  --surface: #ffffff;
+  --surface-border: #e5e5e5;
+  --text-primary: #16181c;
+  --text-secondary: #5f6368;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface: #17181c;
+    --surface-border: #2b2d33;
+    --text-primary: #f2f3f5;
+    --text-secondary: #9aa0a6;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background: var(--surface);
+  color: var(--text-primary);
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.shell {
+  display: grid;
+  gap: 8px;
+  text-align: center;
+}
+
+.shell h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.status {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 13px;
+}

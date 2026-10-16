@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+
+.env
+.env.*
+!.env.example
+
+src-tauri/target/
+src-tauri/gen/schemas/
+
+.idea/
+.vscode/*
+!.vscode/extensions.json
