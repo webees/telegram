@@ -1,9 +1,10 @@
-# Webees
+# Telegram by iTok
 
 Cross-platform desktop shell that hosts [Telegram Web A](https://web.telegram.org/a/) inside a
 native window, built with [Tauri v2](https://tauri.app).
 
-> Webees is not affiliated with, endorsed by, or sponsored by Telegram. See [Legal](#legal).
+> Telegram by iTok is an independent project, not affiliated with, endorsed by, or sponsored by
+> Telegram. See [Legal](#legal).
 
 ## Status
 

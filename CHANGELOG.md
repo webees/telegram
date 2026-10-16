@@ -19,6 +19,7 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - The main window loads the remote Telegram Web A origin (`https://web.telegram.org/a/`).
 - Bundle identifier changed to `telegram.itok.desktop`.
+- User-visible product name and window title are now `Telegram by iTok`.
 
 ### Notes
 
